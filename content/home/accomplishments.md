@@ -10,7 +10,8 @@ headless: true
 weight: 50
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Accomplish&shy;ments'
+#title: 'Accomplish&shy;ments'
+title: 'Formations & Certifications'
 subtitle:
 
 # Date format
@@ -23,28 +24,69 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-- certificate_url: https://www.coursera.org
-  date_end: ""
-  date_start: "2018-10-01"
-  description: ""
-  organization: Coursera
-  organization_url: https://www.coursera.org
-  title: Neural Networks and Deep Learning
+- organization : "Arista"
+  organization_url: "https://www.arista.com/en/"
+  title: "Formation technologie Data Center et Automatisation"
   url: ""
-- certificate_url: https://www.edx.org
+  certificate_url: ""
+  date_start: "2018-04-01"
   date_end: ""
-  date_start: "2018-03-01"
-  description: Formulated informed blockchain models, hypotheses, and use cases.
-  organization: edX
-  organization_url: https://www.edx.org
-  title: Blockchain Fundamentals
-  url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-- certificate_url: https://www.datacamp.com
-  date_end: "2017-12-21"
-  date_start: "2017-07-01"
   description: ""
-  organization: DataCamp
-  organization_url: https://www.datacamp.com
-  title: 'Object-Oriented Programming in R: S3 and R6 Course'
+
+- organization: "VMware"
+  organization_url: "https://www.vmware.com/fr.html"
+  title: "Formation VMware NSX"
   url: ""
+  certificate_url: ""
+  date_start: "2017-06-12"
+  #date_end: "CCNP Data Center"
+  description: ""
+  
+- organization: "Cisco"
+  organization_url: "https://www.cisco.com"
+  title: "CCNP Data Center"
+  url: ""
+  certificate_url: ""
+  date_start: "2016-07-01"
+  #date_end: "2016-07-21"
+  description: "Module 642-996 DCUFD validé"
+  
+- organization: "Cisco"
+  organization_url: "https://www.cisco.com"
+  title: "CCNA Data Center"
+  url: ""
+  certificate_url: ""
+  date_start: "2015-01-01"
+  #date_end: "201-07-21"
+  description: ""
+
+  
+- organization: "Cisco"
+  organization_url: "https://www.cisco.com"
+  title: "Auto-formation CCIE Data Center"
+  url: ""
+  certificate_url: ""
+  date_start: "2013-02-01"
+  #date_end: "2016-07-21"
+  description: ""
+
+  
+- organization: "Microsoft"
+  organization_url: "https://www.microsoft.com/fr-fr"
+  title: "Formation Cloud Privé FlexPod, Cloud hybride Azure"
+  url: ""
+  certificate_url: ""
+  date_start: "2013-02-01"
+  #date_end: "2016-07-21"
+  description: ""
+  
+- organization: "Huawei"
+  organization_url: "https://e.huawei.com/en/"
+  title: "Certification Huawei Certified Sales Specialist"
+  url: ""
+  certificate_url: ""
+  date_start: "2013-02-01"
+  #date_end: "2016-07-21"
+  description: ""
+
 ---
